@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QLearn</title>
+    <link rel="icon" href="assets/hatPurpleIcon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Mukta:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <navbar>
+        <div class="q-learn-spam">
+            <img class="hat-icon" src="assets/hatPurpleIcon.svg" alt="Hat Icon">
+            <h3 class="q-learn-text">QLearn</h3>
+        </div>
+        <div class="navbar-links">
+            <a href="#" class="navbar-link-active">Home</a>
+            <a href="#" class="navbar-link">Teachers</a>
+            <a href="#" class="navbar-link">Course</a>
+            <a href="#" class="navbar-link">Testimonials</a>       
+        </div>
+        <div class="navbar-buttons">
+            <button class="button button-secondary">
+                Sign Up
+            </button>
+            <button class="button button-primary">
+                Log In
+            </button>
+        </div>
+    </navbar>
+
+    <div class="jumbotron-container">
+        <div class="jumbotron-box-1">
+            <div class="jumbotron-content">
+                <div class="jumbotron-header">
+                    Embark on a Delightful Journey of Growth with 
+                    <div style="color: var(--color-secondary);">Online learning</div>
+                </div>
+                <p class="jumbotron-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text  
+                </p>
+                <input class="jumbo-searchbar" 
+                        type="text"
+                        placeholder="Search your favorite course">
+            </div>
+            <div>
+                <img class="jumbotron-image" src="assets/girlJumbo.png" alt="">
+            </div>
+        </div>
+
+        <div class="jumbotron-logos">
+            <img class="jumbotron-logo-img" src="assets/amstradLogo.svg" alt="">
+            <img class="jumbotron-logo-img" src="assets/airbusLogo.svg" alt="">
+            <img class="jumbotron-logo-img" src="assets/sophosLogo.svg" alt="">
+            <img class="jumbotron-logo-img" src="assets/accelrysLogo.svg" alt="">
+            <img class="jumbotron-logo-img" src="assets/avevaLogo.svg" alt="">
+        </div>
+    </div>
+
+
+    <div class="popular-container">
+        
+        <div class="hidden text-header" id="popular-header-id">
+            <div class="header-title">
+                Popular Categories
+            </div>
+            <div class="header-content">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been th 
+            </div>
+        </div>
+
+        <div class="hidden popular-cards-section" id="popular-cards-id">
+            <div class="popular-card popular-card-primary">                
+                <img src="assets/webDesignCardIcon.png"
+                        class="popular-card-icon"
+                        alt="">
+                <div class="popular-card-header">
+                    Web Design
+                </div>
+                <div class="popular-card-text" id="category1">
+                </div>
+            </div>
+            <div class="popular-card popular-card-secondary">                
+                <img src="assets/webDevelopmentCardIcon.png"
+                        class="popular-card-icon"
+                        alt="">
+                <div class="popular-card-header">
+                    Web Development
+                </div>
+                <div class="popular-card-text" id="category2"> 
+                </div>
+            </div>
+            <div class="popular-card popular-card-primary">                
+                <img src="assets/webDesignCardIcon.png"
+                        class="popular-card-icon"
+                        alt="">
+                <div class="popular-card-header">
+                    Marketing
+                </div>
+                <div class="popular-card-text" id="category3">
+                </div>
+            </div>
+            <div class="popular-card popular-card-primary">                
+                <img src="assets/dataEntryCardIcon.png"
+                        class="popular-card-icon"
+                        alt="">
+                <div class="popular-card-header">
+                    Data entry
+                </div>
+                <div class="popular-card-text" id="category4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="experience-container">
+        <div class="experience-image-composition-container">
+            <img class="hidden experience-image-big" id="experience-image-big-id"
+            src="assets/experience1img.png" alt="">
+            <img class="hidden experience-image-small" id="experience-image-small-id"
+            src="assets/experience2img.png" alt="">
+        </div>
+        <div class="hidden experience-content-container" id="experience-content">
+            <div class="experience-header">
+                Take student experience to the next Level
+            </div>
+            <div class="experience-text">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+            </div>
+            <div class="button button-primary experience-button">
+                Learn More
+            </div>
+        </div>
+    </div>
+
+    <div class="popular-container">
+        <div class="hidden text-header" id="course-header-id">
+            <div class="header-title">
+                Our Popular Course
+            </div>
+            <div class="header-content">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been th 
+            </div>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="course-price-tag">
+                $50
+            </div>
+            <img class="course-card-image" 
+                src="assets/card1Img.png" alt="">
+            <div class="course-content-container">
+                <div class="course-card-header">
+                    Web development  Basic to advance
+                </div>
+                <div class="course-rating-container">
+                    <img class="course-stars"
+                    src="assets/fiveStars.png" alt="">
+                    <div>5.0 (2 ratings)</div>
+                </div>
+                <button class="button button-secondary course-cart-button">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="course-price-tag">
+                $50
+            </div>
+            <img class="course-card-image" 
+                src="assets/card2Img.png" alt="">
+            <div class="course-content-container">
+                <div class="course-card-header">
+                    Web development  Basic to advance
+                </div>
+                <div class="course-rating-container">
+                    <img class="course-stars"
+                    src="assets/fiveStars.png" alt="">
+                    <div>5.0 (2 ratings)</div>
+                </div>
+                <button class="button button-secondary course-cart-button">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="course-price-tag">
+                $50
+            </div>
+            <img class="course-card-image" 
+                src="assets/card3Img.png" alt="">
+            <div class="course-content-container">
+                <div class="course-card-header">
+                    Web development  Basic to advance
+                </div>
+                <div class="course-rating-container">
+                    <img class="course-stars"
+                    src="assets/fiveStars.png" alt="">
+                    <div>5.0 (2 ratings)</div>
+                </div>
+                <button class="button button-secondary course-cart-button">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="course-price-tag">
+                $50
+            </div>
+            <img class="course-card-image" 
+                src="assets/card4Img.png" alt="">
+            <div class="course-content-container">
+                <div class="course-card-header">
+                    Web development  Basic to advance
+                </div>
+                <div class="course-rating-container">
+                    <img class="course-stars"
+                    src="assets/fiveStars.png" alt="">
+                    <div>5.0 (2 ratings)</div>
+                </div>
+                <button class="button button-secondary course-cart-button">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="course-price-tag">
+                $50
+            </div>
+            <img class="course-card-image" 
+                src="assets/card5Img.png" alt="">
+            <div class="course-content-container">
+                <div class="course-card-header">
+                    Web development  Basic to advance
+                </div>
+                <div class="course-rating-container">
+                    <img class="course-stars"
+                    src="assets/fiveStars.png" alt="">
+                    <div>5.0 (2 ratings)</div>
+                </div>
+                <button class="button button-secondary course-cart-button">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="course-price-tag">
+                $50
+            </div>
+            <img class="course-card-image" 
+                src="assets/card6Img.png" alt="">
+            <div class="course-content-container">
+                <div class="course-card-header">
+                    Web development  Basic to advance
+                </div>
+                <div class="course-rating-container">
+                    <img class="course-stars"
+                    src="assets/fiveStars.png" alt="">
+                    <div>5.0 (2 ratings)</div>
+                </div>
+                <button class="button button-secondary course-cart-button">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="popular-course-button-container">
+        <button class="button button-primary">
+            See more
+        </button>
+    </div>
+
+
+    <div class="hidden text-header" id="students-header-id">
+        <div class="header-title">
+            What our students say
+        </div>
+        <div class="header-content">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been th 
+        </div>
+    </div>
+
+    <div class="students-container">
+        <div class="hidden students-card students-card-primary" id="student-card-1">
+            <div class="students-card-header">
+                <img class="students-card-image" 
+                    src="assets/studentCard1img.png" alt="" >
+                <div class="students-card-title">
+                    <div class="students-card-name">
+                        Tammy Sandoval
+                    </div>
+                    <div class="students-card-subtitle">
+                        Student
+                    </div>
+                </div>
+            </div>
+            <div class="students-card-text" id="feedback1">
+            </div>
+            <img class="students-stars"
+                    src="assets/fiveStars.png" alt="">     
+        </div>
+        <div class="hidden students-card students-card-secondary" id="student-card-2">
+            <div class="students-card-header">
+                <img class="students-card-image" 
+                    src="assets/studentCard2img.png" alt="" >
+                <div class="students-card-title">
+                    <div class="students-card-name">
+                        James Swanson
+                    </div>
+                    <div class="students-card-subtitle">
+                        Student
+                    </div>
+                </div>
+            </div> 
+            <div class="students-card-text" id="feedback2">
+            </div>
+            <img class="students-stars"
+                    src="assets/fiveStars.png" alt="">      
+        </div>
+        <div class="hidden students-card students-card-primary" id="student-card-3">
+            <div class="students-card-header">
+                <img class="students-card-image" 
+                    src="assets/studentCard1img.png" alt="" >
+                <div class="students-card-title">
+                    <div class="students-card-name">
+                        Candace Walker
+                    </div>
+                    <div class="students-card-subtitle">
+                        Student
+                    </div>
+                </div>
+            </div>
+            <div class="students-card-text" id="feedback3">
+            </div>
+            <img class="students-stars"
+                    src="assets/fiveStars.png" alt="">     
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-box-1">
+                <div class="q-learn-spam">
+                    <img class="hat-icon" src="assets/hatIcon.svg" alt="Hat Icon">
+                    <h3 class="q-learn-text">QLearn</h3>
+                </div>
+                <p class="follow-text">Follow on social service</p>
+                <div class="social-icons">
+                    <img src="assets/facebookIcon.svg" alt="Facebook Icon">
+                    <img src="assets/instaIcon.svg" alt="Instagram Icon">
+                    <img src="assets/twitterIcon.svg" alt="Twitter Icon">
+                </div>
+            </div>
+
+            <div class="footer-box-2-to-4">
+                <p class="footer-box-header">Links</p>
+                <p class="footer-box-text">Home</p>
+                <p class="footer-box-text">Help center</p>
+                <p class="footer-box-text">Service</p>
+            </div>
+            
+            <div class="footer-box-2-to-4">
+                <p class="footer-box-header">Resource</p>
+                <p class="footer-box-text">About Us</p>
+                <p class="footer-box-text">Carrier</p>
+                <p class="footer-box-text">Legal Notice</p>
+            </div>
+
+            <div class="footer-box-2-to-4">
+                <p class="footer-box-header">Contacts</p>
+                <p class="footer-box-text">192. New york</p>
+                <p class="footer-box-text">Support</p>
+                <p class="footer-box-text">+1125156363</p>
+            </div>
+
+        </div>
+
+        <div class="footer-copyright">
+            <hr class="footer-hr">
+            <p class="footer-copyright-text">Copyright 2020@ all right</p>
+        </div>    
+    </footer>
+    <script src="js/animations.js"></script>
+    <script src="js/fetchData.js"></script>
+</body>
+</html>

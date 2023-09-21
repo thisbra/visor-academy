@@ -1,0 +1,159 @@
+[
+    {
+      "category": "Desporto",
+      "question": "Qual é o esporte mais popular no mundo?",
+      "answers": ["Futebol", "Tênis", "Críquete"],
+      "correctAnswer": 0
+    },
+    {
+      "category": "Geografia",
+      "question": "Qual é a capital da França?",
+      "answers": ["Berlim", "Londres", "Paris"],
+      "correctAnswer": 2
+    },
+    {
+      "category": "Musica",
+      "question": "Qual banda lançou o álbum 'The Dark Side of the Moon'?",
+      "answers": ["The Beatles", "Pink Floyd", "Led Zeppelin"],
+      "correctAnswer": 1
+    },
+    {
+      "category": "Filmes",
+      "question": "Quem interpretou o papel de Harry Potter nos filmes?",
+      "answers": ["Daniel Radcliffe", "Rupert Grint", "Tom Felton"],
+      "correctAnswer": 0
+    },
+    {
+      "category": "Televisao",
+      "question": "Qual é o programa de televisão mais assistido de todos os tempos?",
+      "answers": ["Game of Thrones", "Friends", "M*A*S*H"],
+      "correctAnswer": 2
+    },
+    {
+      "category": "Historia",
+      "question": "Em que ano a Revolução Francesa começou?",
+      "answers": ["1789", "1804", "1776"],
+      "correctAnswer": 0
+    },
+    {
+      "category": "Literatura",
+      "question": "Quem escreveu 'Dom Quixote'?",
+      "answers": ["William Shakespeare", "Miguel de Cervantes", "Leo Tolstoy"],
+      "correctAnswer": 1
+    },
+    {
+      "category": "Linguagem",
+      "question": "Quantas línguas oficiais a ONU reconhece?",
+      "answers": ["2", "5", "6"],
+      "correctAnswer": 2
+    },
+    {
+      "category": "Ciencia",
+      "question": "Qual é a menor partícula de um elemento químico?",
+      "answers": ["Átomo", "Próton", "Nêutron"],
+      "correctAnswer": 0
+    },
+    {
+      "category": "Video Jogos",
+      "question": "Qual é o jogo de vídeo mais vendido de todos os tempos?",
+      "answers": ["Minecraft", "Grand Theft Auto V", "Tetris"],
+      "correctAnswer": 2
+    },
+    {
+      "category": "Entretenimento",
+      "question": "Qual é o nome do planeta vermelho do nosso sistema solar?",
+      "answers": ["Marte", "Vênus", "Júpiter"],
+      "correctAnswer": 0
+    },
+    {
+      "category": "Religiao",
+      "question": "Em que país o judaísmo teve origem?",
+      "answers": ["Israel", "Egito", "Grécia"],
+      "correctAnswer": 0
+    },
+    {
+      "category": "Ferias",
+      "question": "Qual é a cidade mais populosa dos Estados Unidos?",
+      "answers": ["Los Angeles", "Nova Iorque", "Chicago"],
+      "correctAnswer": 1
+    },
+    {
+      "category": "Desporto",
+      "question": "Qual é o maior livro do mundo?",
+      "answers": ["A Bíblia", "Enciclopédia Britânica", "Guinness World Records"],
+      "correctAnswer": 2
+    },
+    {
+      "category": "Historia",
+      "question": "Quem é o autor de 'A Origem das Espécies'?",
+      "answers": ["Charles Darwin", "Sigmund Freud", "Isaac Newton"],
+      "correctAnswer": 0
+    },
+    {
+      "category": "Desporto",
+      "question": "Qual é o esporte mais popular nos Estados Unidos?",
+      "answers": ["Futebol Americano", "Beisebol", "Basquetebol"],
+      "correctAnswer": 0
+    },
+    {
+      "category": "Geografia",
+      "question": "Em que país se originou o kung fu?",
+      "answers": ["Japão", "China", "Coreia do Sul"],
+      "correctAnswer": 1
+    },
+    {
+      "category": "Geografia",
+      "question": "Qual é o maior deserto do mundo?",
+      "answers": ["Deserto do Saara", "Deserto da Arábia", "Deserto de Gobi"],
+      "correctAnswer": 0
+    },
+    {
+      "category": "Literatura",
+      "question": "Quem é o autor de '1984'?",
+      "answers": ["George Orwell", "Aldous Huxley", "Ray Bradbury"],
+      "correctAnswer": 0
+    },
+    {
+      "category": "Linguagem",
+      "question": "Qual é a língua oficial do Brasil?",
+      "answers": ["Espanhol", "Português", "Inglês"],
+      "correctAnswer": 1
+    },
+    {
+      "category": "Ciencia",
+      "question": "Qual é o elemento mais abundante na crosta terrestre?",
+      "answers": ["Oxigênio", "Silício", "Alumínio"],
+      "correctAnswer": 1
+    },
+    {
+      "category": "Video Jogos",
+      "question": "Qual é o nome do encanador italiano da Nintendo?",
+      "answers": ["Luigi", "Yoshi", "Mario"],
+      "correctAnswer": 2
+    },
+    {
+      "category": "Musica",
+      "question": "Quem é conhecido como 'The King of Pop'?",
+      "answers": ["Elvis Presley", "Michael Jackson", "John Lennon"],
+      "correctAnswer": 1
+    },
+    {
+      "category": "Religiao",
+      "question": "Qual é o livro sagrado do Islã?",
+      "answers": ["Torá", "Bhagavad Gita", "Alcorão"],
+      "correctAnswer": 2
+    },
+    {
+      "category": "Geografia",
+      "question": "Qual é o país mais visitado do mundo?",
+      "answers": ["França", "Espanha", "Estados Unidos"],
+      "correctAnswer": 0
+    },
+    {
+      "category": "Ferias",
+      "question": "Qual é o feriado mais importante na China?",
+      "answers": ["Ano Novo Chinês", "Festival de Meio Outono", "Festival Qingming"],
+      "correctAnswer": 0
+    }
+  ]
+  
