@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import getAllQuestions from "../services/getAllQuestions";
 
-async function AllQuestions(req: Request, res: Response) {
+async function getAllQuestionsController(req: Request, res: Response) {
   try {
     const questions = await getAllQuestions();
 
@@ -15,4 +15,4 @@ async function AllQuestions(req: Request, res: Response) {
   }
 }
 
-export default AllQuestions
+export default getAllQuestionsController;
