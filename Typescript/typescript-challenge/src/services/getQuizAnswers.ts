@@ -1,4 +1,5 @@
 import Quiz from "../models/quizzes";
+import machineService from "../settings";
 import isAlreadyAnsweredByUser from "./isAlreadyAnsweredByUser";
 
 async function getQuizAnswers(quizId: string, participantId: string) {
@@ -15,6 +16,7 @@ async function getQuizAnswers(quizId: string, participantId: string) {
     quiz.questions.forEach((question) => {
       answers.push(question.answers[question.correctAnswer]);
     });
+    machineService.send({ type: 'ANSWERS_REQUESTED', value: quiz });
     return answers
   } catch (error) {
     throw (`Error on getNextQuestionByUser: ${error}`);

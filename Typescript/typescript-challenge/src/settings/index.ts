@@ -4,6 +4,8 @@ import statusRouter from '../routes/statusRouter';
 import quizRouter from '../routes/quizRouter';
 import connectToMongo from '../mongoose.config';
 import bodyParser from 'body-parser';
+import quizMachine from '../state/machine';
+import { interpret } from 'xstate';
 
 dotenv.config();
 
@@ -20,6 +22,19 @@ connectToMongo().then(() => {
 app.listen(port, () => {
   console.log(`[${new Date().toLocaleString()}] Server running on port ${port}`);
 });
+
+const machineService = interpret(quizMachine).start();
+console.log(`[${new Date().toLocaleString()}] Quiz machine started`);
+
+machineService.onTransition((state) => {
+  console.log(`[${new Date().toLocaleString()}] CURRENT STATE: ${state.value}`);
+});
+
+process.on('exit', () => {
+  machineService.stop();
+});
+
+export default machineService;
 
 
 
