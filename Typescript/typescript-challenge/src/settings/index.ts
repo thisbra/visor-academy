@@ -6,18 +6,28 @@ import connectToMongo from '../mongoose.config';
 import bodyParser from 'body-parser';
 import quizMachine from '../state/machine';
 import { interpret } from 'xstate';
+import logRequest from '../utils/logger';
 
 dotenv.config();
 
 const app: Express = express();
 const port = process.env.PORT;
 app.use(bodyParser.json());
+
+// middleware
+app.use( (req, res, next) => {
+    logRequest(req);
+    next();
+  }
+)
+
 app.use('/api/status', statusRouter);
 app.use('/api/', quizRouter);
 
 connectToMongo().then(() => {
   console.log(`[${new Date().toLocaleString()}] Connected to MongoDB`);
 });
+
 
 app.listen(port, () => {
   console.log(`[${new Date().toLocaleString()}] Server running on port ${port}`);

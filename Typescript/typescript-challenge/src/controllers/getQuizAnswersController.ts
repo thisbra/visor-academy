@@ -1,19 +1,10 @@
 import { Request, Response } from 'express';
-import logRequest from '../utils/logger';
 import getQuizAnswers from '../services/getQuizAnswers';
 import { validateGetQuizAnswers } from '../utils/requestValidator';
 import machineService from '../settings';
 import { QUIZ_STATE } from '../constants';
 
 async function getQuizAnswersController(req: Request, res: Response) {
-  logRequest(req);
-
-  const { error, value } = validateGetQuizAnswers(req.body);
-
-  if (error) {
-    res.status(400).json({ error: error.message });
-    return;
-  }
 
   if (machineService.getSnapshot().value === QUIZ_STATE.ONGOING) {
     res.status(404).json(`Quiz is ${machineService.getSnapshot().context.Quiz._id} still ongoing`);
