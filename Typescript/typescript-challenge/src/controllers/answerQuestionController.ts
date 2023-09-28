@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import answerQuestionFromQuiz from "../services/answerQuestionFromQuiz";
-import { validateAnswerQuestion } from "../utils/requestValidator";
 import machineService from "../settings";
 import { QUIZ_STATE } from "../constants";
 

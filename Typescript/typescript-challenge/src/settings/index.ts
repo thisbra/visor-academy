@@ -7,12 +7,14 @@ import bodyParser from 'body-parser';
 import quizMachine from '../state/machine';
 import { interpret } from 'xstate';
 import logRequest from '../utils/logger';
+import cors from 'cors';
 
 dotenv.config();
 
 const app: Express = express();
 const port = process.env.PORT;
 app.use(bodyParser.json());
+app.use(cors());
 
 // middleware
 app.use( (req, res, next) => {
