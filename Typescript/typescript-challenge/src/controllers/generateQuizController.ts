@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import generateQuiz from "../services/generateQuiz";
-import { validateGenerateQuiz } from "../utils/requestValidator";
 import machineService from "../settings";
 import { QUIZ_STATE } from "../constants";
 
@@ -8,7 +7,6 @@ async function generateQuizController(req: Request, res: Response) {
   try {
 
     const numberOfParticipants = req.body.numberOfParticipants;
-
     
     if (machineService.getSnapshot().value === QUIZ_STATE.IDLE) {
       

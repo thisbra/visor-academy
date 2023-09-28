@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
 import getNextQuestionByUser from '../services/getNextQuestionByUser';
-import { validateGetNextQuestion } from '../utils/requestValidator';
 import machineService from '../settings';
 import { QUIZ_STATE } from '../constants';
 
